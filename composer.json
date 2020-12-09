@@ -13,7 +13,6 @@
             "homepage": "http://makewebbetter.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "ourcodeworld1\\HelloComposer1\\": "src/"
