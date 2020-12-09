@@ -1,0 +1,22 @@
+{
+    "name": "ourcodeworld/hello-composer1",
+    "description": "My first packagist package",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Mohit Mishra",
+            "email": "mohitmishra@makewebbetter.com",
+            "homepage": "http://makewebbetter.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ourcodeworld\\HelloComposer1\\": "src/"
+        }
+    }
+}
